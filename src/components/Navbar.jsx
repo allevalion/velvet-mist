@@ -1,27 +1,27 @@
-import { navLinks } from "../constants";
-import { logo } from "../assets/images";
-import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
+import { navLinks } from '../constants';
+import { logo } from '../assets/images';
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 
 const Navbar = () => {
   useGSAP(() => {
     const navTween = gsap.timeline({
       scrollTrigger: {
-        trigger: "nav",
-        start: "bottom top",
+        trigger: 'nav',
+        start: 'bottom top',
       },
     });
 
     navTween.fromTo(
-      "nav",
+      'nav',
       {
-        backgroundColor: "transparent",
+        backgroundColor: 'transparent',
       },
       {
-        backgroundColor: "#00000050",
-        backgroundFilter: "blir(10px)",
+        backgroundColor: '#00000050',
+        backgroundFilter: 'blur(10px)',
         duration: 1,
-        ease: "power1.inOut",
+        ease: 'power1.inOut',
       }
     );
   });
