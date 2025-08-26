@@ -36,6 +36,10 @@ body {
   @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
 }
 
+@utility background-gradient {
+  @apply bg-gradient-to-b from-[#313131] to-[#0F0F0F];
+}
+
 @utility text-gradient {
   background: linear-gradient(to bottom, #ffffff, #898989);
   -webkit-background-clip: text;
@@ -184,7 +188,7 @@ body {
     }
   }
 
-  #about {
+  .about {
     @apply min-h-screen py-28 2xl:px-0 px-5 container mx-auto;
 
     .content {
