@@ -100,14 +100,21 @@ const goodLists = [
   'Freshly muddled flavors',
 ];
 
-const storeInfo = {
-  heading: 'Where to Find Us',
-  address: '456, Raq Blvd. #404, Los Angeles, CA 90210',
-  contact: {
-    phone: '(555) 987-6543',
-    email: 'hello@jsmcocktail.com',
-  },
+const contactInfo = {
+  phone: '(305) 555-1234',
+  email: 'hello@hello.com',
 };
+
+const barLocations = [
+  {
+    name: 'Velvet Pour Miami Beach',
+    address: '1020 Ocean Dr, Miami Beach, FL 33139',
+  },
+  {
+    name: 'Velvet Pour Austin',
+    address: '600 Congress Ave, Austin, TX 78701',
+  },
+];
 
 const openingHours = [
   { day: 'Mon–Thu', time: '11:00am – 12am' },
@@ -118,18 +125,18 @@ const openingHours = [
 
 const socials = [
   {
-    name: 'Instagram',
-    icon: '/images/insta.png',
+    name: 'Pinterest',
+    icon: '/src/assets/icons/pinterest.svg',
     url: '#',
   },
   {
     name: 'X (Twitter)',
-    icon: '/images/x.png',
+    icon: '/src/assets/icons/x.svg',
     url: '#',
   },
   {
     name: 'Facebook',
-    icon: '/images/fb.png',
+    icon: '/src/assets/icons/facebook.svg',
     url: '#',
   },
 ];
@@ -176,8 +183,9 @@ export {
   profileLists,
   featureLists,
   goodLists,
+  barLocations,
+  contactInfo,
   openingHours,
-  storeInfo,
   socials,
   sliderLists,
 };
