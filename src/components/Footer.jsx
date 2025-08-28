@@ -3,7 +3,7 @@ import {
   contactInfo,
   openingHours,
   socials,
-} from '../constants/index.js';
+} from '@constants/index.js';
 import { useGSAP } from '@gsap/react';
 import { SplitText } from 'gsap/all';
 import gsap from 'gsap';
@@ -11,7 +11,7 @@ import {
   footer_drinks,
   footer_left_leaf,
   footer_right_leaf,
-} from '../assets/images';
+} from '@assets/images';
 
 const Contact = () => {
   useGSAP(() => {
@@ -53,7 +53,7 @@ const Contact = () => {
   });
 
   return (
-    <footer id="contact">
+    <footer className="footer" id="contact">
       <img src={footer_right_leaf} alt="" id="f-right-leaf" />
       <img src={footer_left_leaf} alt="" id="f-left-leaf" />
 

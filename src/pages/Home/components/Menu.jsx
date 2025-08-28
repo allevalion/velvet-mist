@@ -1,6 +1,6 @@
 'use client';
 
-import { sliderLists } from '../constants/index.js';
+import { sliderLists } from '@constants/index.js';
 import { useRef, useState } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
@@ -9,7 +9,7 @@ import {
   right_arrow,
   slider_left_leaf,
   slider_right_leaf,
-} from '../assets/images';
+} from '@assets/images/index.js';
 
 const Menu = () => {
   const contentRef = useRef();

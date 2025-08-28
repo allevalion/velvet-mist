@@ -1,8 +1,8 @@
 import { useGSAP } from '@gsap/react';
-import { hero_left_leaf, hero_right_leaf } from '../assets/images';
+import { hero_left_leaf, hero_right_leaf } from '@assets/images';
 import { SplitText } from 'gsap/all';
 import gsap from 'gsap';
-import { hero } from '../assets/videos';
+import { hero } from '@assets/videos';
 import { useRef } from 'react';
 import { useMediaQuery } from 'react-responsive';
 

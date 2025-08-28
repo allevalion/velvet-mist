@@ -1,6 +1,6 @@
 import { useGSAP } from '@gsap/react';
-import { cocktail_left_leaf, cocktail_right_leaf } from '../assets/images';
-import { cocktailLists, mockTailLists } from '../constants';
+import { cocktail_left_leaf, cocktail_right_leaf } from '@assets/images';
+import { cocktailLists, mockTailLists } from '@constants';
 import gsap from 'gsap';
 import { SplitText } from 'gsap/all';
 

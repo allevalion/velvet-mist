@@ -1,8 +1,8 @@
 import gsap from 'gsap';
 import { SplitText } from 'gsap/all';
 import { useGSAP } from '@gsap/react';
-import { abt1, abt2, abt3, abt4, abt5, check } from '../assets/images';
-import { featureLists, profileLists } from '../constants';
+import { abt1, abt2, abt3, abt4, abt5, check } from '@assets/images';
+import { featureLists, profileLists } from '@constants';
 
 const About = () => {
   useGSAP(() => {
@@ -79,7 +79,7 @@ const About = () => {
             </p>
 
             <div className="flex flex-row justify-between items-center">
-              <div>
+              <div className="flex-col">
                 <p className="md:text-3xl text-xl font-bold">
                   <span>4.5</span>/5
                 </p>
@@ -87,7 +87,7 @@ const About = () => {
                   More than +12000 customers
                 </p>
               </div>
-              <div className="profiles relative inline-flex items-center background-gradient rounded-3xl px-4 py-2">
+              <div className="profiles relative inline-flex flex-row items-center background-gradient rounded-3xl px-4 py-2">
                 <div className="noisy rounded-3xl" />
                 <div className="flex flex-row -space-x-5 relative z-10">
                   {profileLists.map((profile, i) => (
