@@ -37,7 +37,7 @@ const Header = () => {
         <div>
           <Link to="/" className="flex items-center gap-2">
             <img src={logo} alt="" />
-            <p>Velvet Pour</p>
+            <p>Velvet Mist</p>
           </Link>
 
           <ul>

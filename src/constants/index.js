@@ -107,11 +107,11 @@ const contactInfo = {
 
 const barLocations = [
   {
-    name: 'Velvet Pour Miami Beach',
+    name: 'Velvet Mist Miami Beach',
     address: '1020 Ocean Dr, Miami Beach, FL 33139',
   },
   {
-    name: 'Velvet Pour Austin',
+    name: 'Velvet Mist Austin',
     address: '600 Congress Ave, Austin, TX 78701',
   },
 ];
