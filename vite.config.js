@@ -6,6 +6,7 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/velvet-mist/',
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
@@ -16,5 +17,9 @@ export default defineConfig({
       '@constants': path.resolve(__dirname, './src/constants'),
       '@hooks': path.resolve(__dirname, './src/hooks'),
     },
+  },
+  build: {
+    outDir: 'dist',
+    emptyOutDir: true,
   },
 });
