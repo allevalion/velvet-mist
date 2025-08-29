@@ -29,12 +29,12 @@ const App = () => {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/catalog" element={<Catalog />} />
-          <Route path="/product/:id" element={<Product />} />
-          <Route path="/cart" element={<Cart />} />
-          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/velvet-mist/" element={<Home />} />
+          <Route path="/velvet-mist/home" element={<Home />} />
+          <Route path="/velvet-mist/catalog" element={<Catalog />} />
+          <Route path="/velvet-mist/product/:id" element={<Product />} />
+          <Route path="/velvet-mist/cart" element={<Cart />} />
+          <Route path="/velvet-mist/checkout" element={<Checkout />} />
         </Routes>
       </main>
       <Footer />
