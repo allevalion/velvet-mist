@@ -40,6 +40,10 @@ body {
   @apply bg-gradient-to-b from-[#1a1a1a] to-[#000000];
 }
 
+@utility text-bright {
+  @apply font-modern-negra text-yellow;
+}
+
 @utility text-gradient {
   background: linear-gradient(to bottom, #ffffff, #898989);
   -webkit-background-clip: text;
@@ -64,6 +68,14 @@ body {
 }
 
 @layer components {
+  a {
+    @apply transition-colors duration-500;
+  }
+
+  .badge {
+    @apply inline-block px-4 py-2 mb-8 text-sm font-medium text-black bg-white rounded-full;
+  }
+
   main {
     @apply w-full overflow-x-hidden;
   }
@@ -80,7 +92,7 @@ body {
     }
 
     a {
-      @apply text-sm cursor-pointer text-nowrap md:text-base;
+      @apply text-sm cursor-pointer text-nowrap md:text-base hover:text-yellow;
     }
 
     ul {

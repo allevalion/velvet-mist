@@ -35,7 +35,7 @@ const Header = () => {
     <header>
       <nav>
         <div>
-          <Link to="/velvet-mist" className="flex items-center gap-2">
+          <Link to="/velvet-mist/" className="flex items-center gap-2">
             <img src={logo} alt="" />
             <p>Velvet Mist</p>
           </Link>
