@@ -1,0 +1,9 @@
+@reference "@/globals.css";
+
+.page {
+  @apply mt-40 col-center md:mt-32;
+
+  h1 {
+    @apply md:mt-10 mt-10 text-8xl md:text-[13vw] leading-none text-center font-modern-negra;
+  }
+}

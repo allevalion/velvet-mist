@@ -1,6 +1,6 @@
 @reference "@/globals.css";
 
-.wrapper {
+.page {
   @apply mt-40 col-center md:mt-32;
 
   h1 {
@@ -11,10 +11,15 @@
     @apply flex-wrap gap-4 mt-20 flex-center;
 
     li {
-      @apply relative w-full h-full overflow-hidden max-w-100 max-h-140 rounded-3xl;
+      @apply relative w-full h-full overflow-hidden max-w-100 max-h-[675px] rounded-3xl;
 
-      img {
-        @apply object-cover w-full h-full max-w-60 max-h-60;
+      div {
+        h2,
+        img,
+        p,
+        div {
+          @apply z-50;
+        }
       }
     }
   }
